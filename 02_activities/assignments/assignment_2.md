@@ -9,21 +9,33 @@
     - You can find data visualizations at https://public.tableau.com/app/discover or https://datavizproject.com/, or anywhere else you like! 
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
-      ```
-      Your answer...
 
+BAD VISUALIZATION
 
+https://public.tableau.com/app/profile/asiandevelopmentbank/viz/ClimateFinancingProjects2021ClimateBank/DashProjectsMap
 
+The graph includes two sections: Project map and Projects list related to climate finance. In the first Project map panel include some project points located in Central and Eastern  East Asia.  And the points were colored by the location categories (such as East Asia, South Asia etc.) which is duplicative information. That is why a map for!!! We can understand where each point is located by looking at the map we dont need a LEGEND for this.
 
+In the right side we see the total share of the sectors which is very readable. However color codes are problematic. We see similar colors on the map with a different information. 
 
+I like seeing the detailed budgets for ech point when we come over a point. 
 
-
-      ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+ The points are not desctiptive I would prefer a label showing the name of the countries.  
+ 
+ I would prefer sizing the points by project budget or number of projects. Maybe I can use two different colors by budget type (mitigation & adaptation). And that way the audience can explore the share of the budgets. 
+
+In addition the colors used in the map and right side bar showing the breakdown of financing is confusing. The color codes of blue and green used in the map and panel are so similar but the information carried by these colors are DIFFERENT. I would definetaly use different colors.
 
 
+GOOD VISUALIZATION
+
+https://datavizproject.com/data-type/choropleth-map-2/
+
+Sometimes a map tells all the story!! This map is so abstract but carries a strong message. We can see the more peaceful and less peacful countries at one glance. I like the color selection. I think war is globally defined but hot points as red and it uses the same global, generic color code. We also see the distribution of colors are mor eor less related to neighbors such as a conflict zone is surrounded by less peacefull color codes. 
+
+I would like to see the osurce of the dataset and the year in the plot. Also they mentioned they used 22 indicators, I would prepare seperate panels for each indicator this provide transparency of overall dataset. 
 
 
 
