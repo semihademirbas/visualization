@@ -9,21 +9,52 @@
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
 
+    I used Python Matplot package. I really like the simplicity of the plots. 
+
     > Who is your intended audience? 
+
+    The intended audience is the planners and decisionmakers in City of Toronto. 
     
     > What information or message are you trying to convey with your visualization? 
+
+    The future looks catastrophic for Toronto. The current desicion makers hold our future in their hands. I want to highlight the dramatic rise in mean temperature. I also wanted to evaluate the uncertainty of the future. This is why I plot box plots and show the model spread. Especially through the end-of-century the model agremment weakens. I want to persuade the planners acting urgently for mid-century! We should avoid ambitious targets or unrealistic actions. We should assess these models not pessimisticly but rather search for the best feasible adaptation options.
     
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
     
+    I compared medium emission (ssp2-45) and high emission (ssp5-85) scenario. These global scenaios define how humanity choose about mitigation of emissions. And even in medium emission scenario the future looks different than today. I want to persudae the audience by rational appeal.
+
+    The time series evaluation of climate change highlights how dramatic the future could be! 
+
+    I added the datasource as alt text below. These information is generally missing in presentation and it is essential to know the source of the dataset. 
+
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    I used pyhton to increase the reproducibility of the code. But because my data selection relies on the columns and the rows of the data table, if future work would use the same data storiang apporach my code works efficiently .But if they change the storgae scheme, one can need some data transformation. 
     
     > How did you ensure that your data visualization is accessible?  
+
+    I checked the colorblind colors goes well together. 
+    I avoid sophisticated visulaizations and keep everything simple. 
+    Texts are legitimative. 
+    Basically the emission scenarios are similar in theory so similar visulaziton works well but I differentiated the color to highlight the variance
     
-    > Who are the individuals and communities who might be impacted by your visualization?  
+    > Who are the individuals and communities who might be impacted by your visualization? 
+
+    I targeted the technical stuff that plane the city now!! The mid century is ahead and we have limited time. I want to show this!
     
-    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization?
+    The dataset inludes a bunch of climate variables. I visulaize only annual mean temperature which is a simple climate indicator that everyone can relate. Because code is reproducible any variable on the dataset can be visualize by only chnaging selection.  
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Data cleaning and selection: Filtering the dataset to keep only relevant columns such as Climate Scenario, Time Horizon, and Annual Mean Temperature.
+
+    Formatting values: Ensuring temperature values were numeric and removing rows with missing or non-numeric data.
+
+    Structuring the data: Grouping the data by scenario and time horizon so that it could be plotted correctly in box plots.
+
+    Choosing visualization type: Testing line and box plots to decide which best represented both median and percentile information clearly.
+
+    Annotation and clarity: Adding labels, axis titles, and descriptive alt text to make the visualization understandable without extra explanation.
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
